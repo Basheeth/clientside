@@ -1,0 +1,81 @@
+
+
+.componentBody{
+    width: 300px;
+    height: 100%;
+    border-top : 4px solid red;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f6f7f8 ;
+    grid-row-start: 1;
+    margin-right: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.viewHeading{
+    font-size: .9375rem;
+    font-weight: bold;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+}
+
+.viewHeading>span{
+    font-size: 1.5333rem;
+    font-weight: normal;
+    color: #a7a7a8;
+}
+
+.addNewTaskButton{
+    width: 278px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    color: #8D9098;
+    border: 1px solid #E5E5E5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.addNewTaskButton>span{
+    font-size: 21px;
+}
+
+.titleBox{
+    width:167px;
+    color: black;
+    margin-left: 10px;
+    max-height:180px;
+    overflow-y: auto;
+    line-height: 1.4;
+    border:none;
+    outline:none;
+    cursor:text;
+    word-break: break-word;
+}
+
+.titleBox[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #8D9098; 
+}
+
+.addNewTaskButton:hover{
+    border: 1px solid rgb(0, 94, 255);
+}
+
+.bigDiv{
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+    margin-left:20px;
+}
+
+
+
+
+
